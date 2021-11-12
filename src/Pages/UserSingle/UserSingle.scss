@@ -1,0 +1,54 @@
+.heading {
+	font-size: 36px;
+	color: teal;
+}
+
+.selected__user {
+	max-width: 250px;
+	margin-bottom: 20px;
+	padding: 5px;
+	background-color: #fff;
+	border: 1px solid teal;
+	border-radius: 5px;
+	overflow: hidden;
+	text-align: center;
+}
+
+.selected__user-image {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+	object-fit: cover;
+}
+
+.selected__user-name {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 22px;
+	color: #343a46;
+}
+
+.selected__user-email {
+	text-decoration: none;
+	font-size: 18px;
+	color: rgba($color: teal, $alpha: 0.9);
+	transition: all 0.4s ease;
+
+	&:hover {
+		color: orange;
+	}
+}
+
+.backword__button {
+	padding: 5px 15px;
+	background-color: #343a46;
+	color: #fff;
+	border: 1px solid #343a46;
+	border-radius: 5px;
+	transition: all 0.4s ease;
+
+	&:hover {
+		background-color: transparent;
+		color: #343a46;
+	}
+}
